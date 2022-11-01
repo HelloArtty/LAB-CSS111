@@ -1,0 +1,41 @@
+-- CREATE TABLE EMPLOYEE ( 
+--  EmpID integer PRIMARY KEY, 
+--  Name varchar(100), 
+--  Dept varchar(100), 
+--  Salary float DEFAULT 30000 
+-- );
+-- INSERT into EMPLOYEE
+-- 	VALUES (101, 'Anne', 'Accounting', 40000);
+-- INSERT into EMPLOYEE (EmpID, Name, Dept) 
+-- 	values (102, 'Benjamin', 'Sales'); 
+-- INSERT into EMPLOYEE (EmpID, Name) 
+-- 	values (103, 'Celine'); 
+-- INSERT into EMPLOYEE 
+-- 	values (104, 'Dilan', 'Production', 10000); 
+
+-- SELECT * FROM EMPLOYEE;
+-- 
+-- SELECT Dept FROM EMPLOYEE;
+-- 
+-- DELETE FROM EMPLOYEE WHERE Name = 'Celine';
+-- 
+-- INSERT into EMPLOYEE VALUES (103, 'Celine', 'Sales', 20000);
+-- 
+-- SELECT * FROM EMPLOYEE;
+-- 
+-- SELECT Dept FROM EMPLOYEE;
+-- 
+-- SELECT DISTINCT Dept FROM EMPLOYEE; )
+-- 
+
+-- SELECT * FROM EMPLOYEE order by Salary; 
+-- 
+-- SELECT * FROM EMPLOYEE order by Salary desc; 
+-- 
+-- SELECT * FROM EMPLOYEE where Salary > 15000;
+-- 
+-- SELECT * FROM EMPLOYEE where Salary > 15000 and Name like '%B%';
+-- 
+-- SELECT * FROM EMPLOYEE where Salary > 15000 and NOT Name like '%B%' ORDER BY Salary;
+-- 
+-- SELECT * FROM EMPLOYEE where Salary > 15000 and NOT Name like '%B%' ORDER BY Dept; 
